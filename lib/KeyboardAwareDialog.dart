@@ -81,6 +81,7 @@ class _KeyboardAwareDialogState extends State<KeyboardAwareDialog> {
       w = ScrollConfiguration(
         behavior: _NoOverScrollBehavior(),
         child: SingleChildScrollView(
+          reverse: true,
           child: dialog,
         ),
       );
